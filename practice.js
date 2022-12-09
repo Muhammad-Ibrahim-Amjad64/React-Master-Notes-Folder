@@ -87,6 +87,7 @@ export default cartContextProvider
 
 import { useContext } from "react"
 import cartContext from "./cart-context"
+import { Router } from "react-router"
 
 const ctx = useContext(cartContext)
 
@@ -109,3 +110,47 @@ const Person = ()=> {
 export default Person 
 
 
+//---------------------------------------------------------------------
+
+
+// index.js 
+
+
+import { BrowserRouter as Router } from 'react-router-dom';
+
+{    
+    /*
+
+    <Router>
+    </App>
+    </Router>
+
+
+*/}
+
+
+import { Route,Switch } from "react-router"
+
+const persron = ()=>{
+
+
+
+
+    return <>
+    <Switch>
+    <Route path="/" exact ><Welcome></Welcome></Route>
+    <Route exact  path="/ali" ><Component/></Route>
+
+
+    </Switch>
+    
+    </>
+}
+
+
+//-----------------------------------
+
+// using in components link and Navlink 
+
+
+history.push("/all-quotes")   // when the form is submitted 
