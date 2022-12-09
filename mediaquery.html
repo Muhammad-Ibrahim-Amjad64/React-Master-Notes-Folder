@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nabiha</title>
+    <style>
+        h1{
+            background-color: black;
+            color: wheat;
+            text-align: center;
+            display: none;
+        }
+
+        @media (max-width:300px){
+            #box1{
+                display: block;
+                background-color: brown;
+            }
+        }
+        @media ((min-width:300px) and (max-width:500px)){
+            #box2{
+                display: block;
+                background-color: blue;
+            }
+        }
+        @media (min-width:700px){
+            #box3{
+                display: block;
+                background-color: black;
+                border: 2px solid grey;
+                border-radius: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 id="box1">iphone</h1>
+    <h1 id="box2">tablet</h1>
+    <h1 id="box3">computer</h1>
+    <h1 id="box4">wide screen computer </h1>
+    
+</body>
+</html>
+
+<!-- 
+
+//-------------------------------------------------------------------------------
+
+Max-width allows us to shrink jitni set kro gy use se zayada nai ho gi km ho skti ha  
+
+min-width: 600px  // can not be smaller than 600px
+max-width: 600px  // can not exceed 600px
+width: 600px // fixed 
+
+
+media query :
+ aik tarika to make responsive design  . media query jb screen resize tou kuch specific css page mn add hogi 
+
+
+in media quary min width is lower bound & max width is upper bound 
+
+// Media query is like if condition 
+
+// media types :  only screen (for computer screens)  , all (supported for all devices)
+// https://www.w3.org/TR/CSS21/media.html%23media-types 
+
+
+//--------------------------------------------------------------------------------- -->
