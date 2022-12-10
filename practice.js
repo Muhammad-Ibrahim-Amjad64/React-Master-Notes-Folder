@@ -154,3 +154,26 @@ const persron = ()=>{
 
 
 history.push("/all-quotes")   // when the form is submitted 
+
+
+//--
+setIsFocused(true)
+
+<form onfocus={onFocusHandler}></form>
+
+<Prompt when={isFocused} message="You sure ?"></Prompt>  // when likhna shoru krdia then watn to go back 
+
+//--------------------------------------------------------
+
+// install use npm i @reduxjs/toolkit
+
+// Redux 
+
+// store  -> 2 files 
+
+// index.js  
+
+
+// Cartslice.js 
+
+

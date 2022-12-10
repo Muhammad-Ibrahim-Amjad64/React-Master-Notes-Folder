@@ -515,7 +515,7 @@ function App() {
   const [error,setError]= useState(null)
 
 //  async function fetchMoviesHandler(){}
- const fetchMoviesHandler= useCallback(async ()=>{
+ const fetchMoviesHandler = useCallback(async ()=>{
   setError(null)
   setIsLoading(true)
   try {

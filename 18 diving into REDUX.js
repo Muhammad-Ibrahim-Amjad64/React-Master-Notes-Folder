@@ -547,7 +547,7 @@ dispatch({type:INC})
 
 //----------------------
 // INSTALLING REDUX AND USING IT 
-
+// npm  i redux react-redux  
 // To install use npm i @reduxjs/toolkit
 // You can uninstall react as redux toolkit contains redux 
 
@@ -938,7 +938,8 @@ export default Counter;
 //----------------------------------------------------------------------
 // HOW TO WORK WITH REDUX PROPELY 
 //----------------------------------------------------------------------
-
+// npm  i redux react-redux  
+// To install use npm i @reduxjs/toolkit
 // 1. make store 
 // 2. make index.js file 
 // 3. create store  and reducerslices // by create slice and configure store and combine that slices 
