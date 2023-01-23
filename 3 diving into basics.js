@@ -17,7 +17,7 @@ align-items: flex-end;   // price and usko end mn kia aik div mn wrap kr ke
 // About dates
 //---------------------
 
-/ date creations ---------------------------------
+// date creations ---------------------------------
 const date = new Date   
 const date = new Date.now
 const date = new Date(2022,7,3)
@@ -27,6 +27,7 @@ const date = new Date(2022,7,3)
     title: "Toilet Paper",
     amount: 94.12,
     date: new Date(2020, 7, 14),
+      
   },
 
 

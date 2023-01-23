@@ -130,6 +130,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 
 import { Route,Switch } from "react-router"
+import { getOriginalNode } from "typescript"
 
 const persron = ()=>{
 
@@ -174,6 +175,43 @@ setIsFocused(true)
 // index.js  
 
 
-// Cartslice.js 
+// Cartslice.js
 
 
+//------------------------------------------------------------------
+
+// To do List  
+
+const Dummy = [{id:}]
+
+
+
+setExpenses((Prevexpenses)=>{
+    return [...Prevexpenses, ]
+})
+
+
+
+// aik form 
+// aik list
+//  aik adder  that is in app.js and remover also in app.js 
+
+// App.js 
+
+
+const [goal,setGoal]= useState(goalList)
+
+// add goal handler 
+
+
+
+// delete goal handler 
+
+// form.js 
+
+const onChangeHandler= (event)=>{
+    SVGMetadataElement()
+    
+}
+
+<input type="text" value={data} onchange={onChangeHandler} />
