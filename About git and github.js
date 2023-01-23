@@ -1,7 +1,7 @@
 // ---------------------------------------------------------------------
 // Git commands 
 ///----------------------------------------------------------------------
-
+c/Users/ibram/OneDrive/Desktop/Software-Houses-Folder
 // * cd /c      // to move in a folder
 // * git config --global user.name "Ibrahim"        // to initialize the user name 
 // * git config --global user.email "Ibrahim"       // to initialize the user email
