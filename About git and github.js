@@ -227,7 +227,7 @@ c/Users/ibram/OneDrive/Desktop/Software-Houses-Folder
 
 // * git checkout master
 
-
+kf[perkf[per[pr]]]
 // (always commit before switching )
 
 // to merge two branches
